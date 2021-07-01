@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.descuentos{
+    background-color: #D1891C;
+    padding: 0.5em ;
+}
+
+.title{
+    background-color: #00669F;
+    padding: 0.7em;
+    box-shadow: 0 5px 10px -6px black;
+}
+
+
+.container-cards{
+    text-align: center;
+}
+
+.card{
+    position: relative;
+    display: inline-block;
+    width:  300px;
+    margin: 3em 2em;
+    box-shadow: 0 1px 10px -6px black;
+}
+
+.card-header{
+    border-radius: 1em 1em 0 0;
+    background-size: cover;
+    height: 200px;
+}
+
+.card-header-batman{
+    background-image: url('../img/FondoBatman.png');
+}
+
+.card-header-harley{
+    background-image: url('../img/FondoHarley.png');
+}
+
+.card-header-mujer-maravilla{
+    background-image: url('../img/FondoMujerMaravilla.png');
+}
+
+.card-header-super-man{
+    background-image: url('../img/FondoSuperMan.png');
+}
+
+.card-body h2{
+    text-align: center;
+    padding: 0.5em;
+}
+
+.card-btn-container{
+    text-align: center;
+}
+
+.card-body{
+    background-color: #F3F3F3;
+    padding: 2em 1em;
+}
+
+.card-btn{
+    background-color: #00669F;
+    padding: 0.5em 1em;
+    color: white;
+    border-style: none;
+    margin-top: 2em;
+    box-shadow: 0 5px 10px -6px black;
+}
+
+footer{
+    background-color: #00669F;
+    color: white;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+
+footer p{
+    align-self: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+footer img{
+    height: 30px;
+}
+
+.card-img{
+    height: 0;
+}
+.card-img img{
+    display: inline;
+    border-radius: 100%;
+    width: 5em;
+    margin-top: -2.5em;
+    box-shadow: 0 5px 10px -6px black;
+}
+
+.card-header span{
+    color: #CC2424;
+}
+
+.card-header{
+    text-align: left;
+    padding: 1em;
+}
